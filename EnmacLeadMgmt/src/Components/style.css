@@ -1,0 +1,65 @@
+
+
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.login-container {
+  background: url('../../public/images/enmac1.png');
+  background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url('../../public/images/enmac1.png');
+  background-repeat: no-repeat; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white; /* Set background color to white */
+  color: black; /* Set text color to black */
+}
+
+.login-wrapper {
+  width: 100%;
+  padding: 20px;
+  color:white
+}
+
+form {
+  color: white;
+  width: 90%
+}
+
+.custom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px; /* Adjust the margin as needed */
+}
+
+.custom-label {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.custom-input {
+  width: 100%; /* Take up the remaining width */
+}
+
